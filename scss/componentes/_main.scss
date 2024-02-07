@@ -32,6 +32,10 @@
                     .tarjeta-index{
                         .espaciado-tarjetas{
                             margin-bottom: 35px;
+                            text-align: center;
+                            h3{
+                                margin: 0;
+                            }
                             .card{
                                 transition: 1s;
                                 &:hover{
@@ -51,20 +55,22 @@
 
       /*MAIN-SALUD */
 .salud-main{
-    div{
-        div{
-            div{
+    section{
+        section{
+            article{
                 .texto-salud{
                     .lista-salud{
                         li{
                             a{
                                 text-decoration: none;
+                                color: black;
+                                text-transform: uppercase;
                             }
                         }
                     }
                 }
             }
-            div{
+            section{
                 .tarjetas{
                     .espaciado-tarjetas{
                         margin-bottom: 20px;

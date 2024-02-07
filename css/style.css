@@ -15,7 +15,7 @@
   text-decoration: none;
   color: rgb(171, 171, 171);
 }
-.heade-index section article div ul li .tetexto-blanco {
+.heade-index section article div li .tetexto-blanco {
   text-decoration: none;
   color: white;
 }
@@ -42,6 +42,10 @@
 }
 .inde-main .margen-index- #pdm section .tarjetass-- .tarjeta-index .espaciado-tarjetas {
   margin-bottom: 35px;
+  text-align: center;
+}
+.inde-main .margen-index- #pdm section .tarjetass-- .tarjeta-index .espaciado-tarjetas h3 {
+  margin: 0;
 }
 .inde-main .margen-index- #pdm section .tarjetass-- .tarjeta-index .espaciado-tarjetas .card {
   transition: 1s;
@@ -52,16 +56,18 @@
 }
 
 /*MAIN-SALUD */
-.salud-main div div div .texto-salud .lista-salud li a {
+.salud-main section section article .texto-salud .lista-salud li a {
   text-decoration: none;
+  color: black;
+  text-transform: uppercase;
 }
-.salud-main div div div .tarjetas .espaciado-tarjetas {
+.salud-main section section section .tarjetas .espaciado-tarjetas {
   margin-bottom: 20px;
 }
-.salud-main div div div .tarjetas .espaciado-tarjetas .card {
+.salud-main section section section .tarjetas .espaciado-tarjetas .card {
   transition: 1s;
 }
-.salud-main div div div .tarjetas .espaciado-tarjetas .card:hover {
+.salud-main section section section .tarjetas .espaciado-tarjetas .card:hover {
   box-shadow: 3px 5px 7px black;
   transition: 1s;
 }
