@@ -32,10 +32,6 @@
                     .tarjeta-index{
                         .espaciado-tarjetas{
                             margin-bottom: 35px;
-                            text-align: center;
-                            h3{
-                                margin: 0;
-                            }
                             .card{
                                 transition: 1s;
                                 &:hover{
@@ -123,8 +119,8 @@
 
 /*MAIN IMPORTANCIA DEL DEPORTE*/
 main{
-    div{
-        div{
+    section{
+        section{
             .tarjeta-importanciadep{
                 margin-bottom: 25px;
                 .espaciado-tarjetas{
