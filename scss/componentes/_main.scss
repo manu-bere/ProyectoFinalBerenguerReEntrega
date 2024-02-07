@@ -10,7 +10,7 @@
         background-position: center;
         background-size: auto;
         margin-bottom: 30px;
-        div{
+        article{
             div{
                 color: white;
                 text-shadow: 0 2px 7px rgba(0,0,0,0.5);
@@ -27,20 +27,22 @@
     .margen-index-{
         margin-top: 40px !important;
         #pdm{
-            div{
-            .tarjeta-index{
-                .espaciado-tarjetas{
-                    margin-bottom: 35px;
-                    .card{
-                        transition: 1s;
-                        &:hover{
-                            box-shadow: 3px 5px 7px black;
-                            transition: 1s;
+            section{
+                .tarjetass--{
+                    .tarjeta-index{
+                        .espaciado-tarjetas{
+                            margin-bottom: 35px;
+                            .card{
+                                transition: 1s;
+                                &:hover{
+                                    box-shadow: 3px 5px 7px black;
+                                    transition: 1s;
+                                }
+                            }
                         }
                     }
                 }
-            }
-        }    
+            }    
         }
     }
 }
