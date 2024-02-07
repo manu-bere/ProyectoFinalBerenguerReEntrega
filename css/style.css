@@ -7,6 +7,19 @@
   text-decoration: none;
 }
 
+/* HEADER INDEX*/
+.heade-index section article div {
+  font-size: medium;
+}
+.heade-index section article div ul li .tetexto-gris {
+  text-decoration: none;
+  color: rgb(171, 171, 171);
+}
+.heade-index section article div ul li .tetexto-blanco {
+  text-decoration: none;
+  color: white;
+}
+
 /*main index*/
 .inde-main .fondo-deporte-inde {
   background-image: url("https://i.pinimg.com/564x/49/78/76/497876efcf9f68cb30b2f6a6bb04f60a.jpg") !important;
@@ -14,12 +27,14 @@
   background-size: auto;
   margin-bottom: 30px;
 }
-.inde-main .fondo-deporte-inde div div h1 {
+.inde-main .fondo-deporte-inde div div {
   color: white;
+  text-shadow: 0 2px 7px rgba(0, 0, 0, 0.5);
+}
+.inde-main .fondo-deporte-inde div div h1 {
   text-align: center;
 }
-.inde-main .fondo-deporte-inde div div p {
-  color: white;
+.inde-main .fondo-deporte-inde div p {
   text-align: center;
 }
 .inde-main .margen-index- {
