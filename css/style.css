@@ -46,6 +46,11 @@
   color: black;
 }
 
+/*HEADER CALCULA TU PESO*/
+.heade-cal-peso section article div .gris-cal-peso a {
+  color: rgb(171, 171, 171);
+}
+
 /*main index*/
 .inde-main .fondo-deporte-inde {
   background-image: url("https://i.pinimg.com/564x/49/78/76/497876efcf9f68cb30b2f6a6bb04f60a.jpg") !important;
@@ -95,22 +100,22 @@
 }
 
 /*MAIN ALIMENTACION*/
-.alim-main div .justify-content-center div .alimentacion-c .img-centrada-1 {
+.alim-main section section section .tarjeta-alimentacion .alimentacion-c .img-centrada-1 {
   width: 60vh;
 }
-.alim-main div .justify-content-center div .alimentacion-c .img-centrada-2 {
+.alim-main section section section .tarjeta-alimentacion .alimentacion-c .img-centrada-2 {
   width: 60vh;
 }
-.alim-main div .justify-content-center div .alimentacion-c .img-centrada-3 {
+.alim-main section section section .tarjeta-alimentacion .alimentacion-c .img-centrada-3 {
   width: 60vh;
 }
-.alim-main div .justify-content-center div .tarjeta-alimentacion .espaciado-tarjetas {
+.alim-main section section section .espaciado-tarjetas {
   margin-bottom: 25px;
 }
-.alim-main div .justify-content-center div .tarjeta-alimentacion .espaciado-tarjetas .card {
+.alim-main section section section .espaciado-tarjetas .card {
   transition: 1s;
 }
-.alim-main div .justify-content-center div .tarjeta-alimentacion .espaciado-tarjetas .card:hover {
+.alim-main section section section .espaciado-tarjetas .card:hover {
   box-shadow: 3px 5px 7px black;
   transition: 1s;
 }
