@@ -23,7 +23,10 @@
         }
     }
 
-/*header salud*/
+
+
+
+/*HEADER SALUD*/
 .heade-salud{
     section{
         article{
@@ -37,6 +40,63 @@
                     .blanco-salud{
                         a{
                             color: white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+/*HEADER ALIMENTACION*/
+.heade-alimentacion{
+    section{
+        article{
+            div{
+                ul{
+                    .gris-alimentacion{
+                        a{
+                            color: rgb(171, 171, 171);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+/*HEADER IMPORTANCIA DEL DE PORTE*/
+.heade-importancia-dep{
+    section{
+        article{
+            div{
+                ul{
+                    .gris-importancia-dep{
+                        a{
+                            color: rgb(171, 171, 171);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/*HEADER COMIDAS SANAS*/
+.heade-comidas-sanas{
+    section{
+        article{
+            div{
+                .gris-comidas-sanas{
+                    a{
+                        color: rgb(171, 171, 171);
+                        &:hover{
+                            color: black;
                         }
                     }
                 }
