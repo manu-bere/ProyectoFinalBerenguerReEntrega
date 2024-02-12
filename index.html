@@ -20,40 +20,43 @@
     
                         <!-- HEADER -->
 
+
     <header class="heade-index">
         <section class="px-3 py-2 text-bg-dark border-bottom">
-            <article class="container">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg text-bg-dark">
+                    <div class="container-fluid">
 
-                <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-                    <a href="index.html" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto">
-                        <img class="bi me-2" width="120" height="90" role="img" aria-label="Bootstrap" _mstaria-label="138918" _mstHash="68" src="imagenes/logos/fondo--1nvertido.png">
-                    </a>
 
-                    <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0">
+                        <!-- Logo -->
+                        <a href="index.html" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto">
+                            <img class="bi me-2" width="120" height="90" role="img" aria-label="Bootstrap" src="imagenes/logos/fondo--1nvertido.png">
+                        </a>
+                        <!-- Botón para el menú desplegable -->
+
                         
-                        <li>
-                            <a href="index.html" class="nav-link tetexto-gris"> Inicio </a>
-                        </li>
-                        <li>
-                            <a href="paginas/salud.html" class="nav-link tetexto-blanco"> Salud </a>
-                        </li>
-                        <li>
-                            <a href="paginas/alimntacion.html" class="nav-link tetexto-blanco"> Alimentacion </a>
-                        </li>
-                        <li>
-                            <a href="paginas/importancia-del-deporte.html" class="nav-link tetexto-blanco"> Importancia del Deporte </a>
-                        </li>
-                        <li>
-                            <a href="paginas/comidas-sanas.html" class="nav-link tetexto-blanco"> Comidas Saludables </a>
-                        </li>
-                        <li>
-                            <a href="paginas/calcula-tu-peso.html" class="nav-link tetexto-blanco"> Calcula IMC </a>
-                        </li>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" >
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0,0,256,256"
+                            style="fill:#000000;">
+                            <g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(10.66667,10.66667)"><path d="M2,11h20v2h-20zM2,5h20v2h-20zM2,17h20v2h-20z"></path></g></g>
+                            </svg>
+                        </button>
 
-                    </ul>
-                </div>
 
-            </article>
+                        <!-- Menú desplegable -->
+                        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup" style="right: 0;">
+                            <div class="navbar-nav color-navegacion-index justify-content-end">
+                                <a class="nav-link texto-gris-index" aria-current="page" href="index.html">Inicio</a>
+                                <a class="nav-link texto-blanco-index" href="paginas/salud.html">Salud</a>
+                                <a class="nav-link texto-blanco-index" href="paginas/alimntacion.html">Alimentación</a>
+                                <a class="nav-link texto-blanco-index" href="paginas/importancia-del-deporte.html">Importancia del Deporte</a>
+                                <a class="nav-link texto-blanco-index" href="paginas/comidas-sanas.html">Comidas Sanas</a>
+                                <a class="nav-link texto-blanco-index" href="paginas/calcula-tu-peso.html">Calcula IMC</a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
         </section>
     </header>
 
@@ -63,8 +66,8 @@
     <!-- MAIN -->
     <main class="inde-main">
 
-        <section class="container-fluid fondo-deporte-inde">
-            <article class="row py-lg-5">
+        <section class="container fondo-deporte-inde">
+            <article class="row py-lg-5 py-md-3 py-mx-2">
               <div class="col-lg-6 col-md-8 mx-auto">
                 <h1 class="">Salud, Deporte y Disciplina</h1>
                 <p class="">La Funcion es de esta pagina, es concientizar a las personas de la importancia de mantener una vida Saludable</p>
@@ -76,7 +79,7 @@
             <article id="pdm" class="row justify-content-center">
 
                 <!-- `PARRAFOS -->
-                <section class="col-sm-11 col-md-7 col-lg-7 col-xl-6">
+                <section class="col-sm-10 col-md-10 col-lg-7 col-xl-6">
                     <article class="parrafosconborde">
                         <div>
                             <h4>Salud</h4>
@@ -114,7 +117,7 @@
                 
                 </section>
 
-                <section class="col-sm-6 col-md-3 col-lg-3 col-xl-3 tarjetass--">
+                <section class="col-sm-6 col-md-6 col-lg-3 col-xl-3 tarjetass--">
 
                     <section class="tarjeta-index">
                         <article class="espaciado-tarjetas">
@@ -170,6 +173,10 @@
         </footer>
       </div>
     
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 

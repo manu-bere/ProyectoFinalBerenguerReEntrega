@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -8,55 +9,62 @@
 }
 
 /* HEADER INDEX*/
-.heade-index section article div {
-  font-size: medium;
-}
-.heade-index section article div ul li .tetexto-gris {
-  text-decoration: none;
+.heade-index section div nav div div div .texto-gris-index {
   color: rgb(171, 171, 171);
 }
-.heade-index section article div li .tetexto-blanco {
-  text-decoration: none;
+.heade-index section div nav div div div .texto-blanco-index {
   color: white;
 }
 
 /*HEADER SALUD*/
-.heade-salud section article div ul .gris-salud a {
+.heade-salud section div nav div div div .texto-gris-salud {
   color: rgb(171, 171, 171);
 }
-.heade-salud section article div ul .blanco-salud a {
+.heade-salud section div nav div div div .texto-blanco-salud {
   color: white;
 }
 
 /*HEADER ALIMENTACION*/
-.heade-alimentacion section article div ul .gris-alimentacion a {
+.heade-alimentación section div nav div div div .texto-gris-alimentación {
   color: rgb(171, 171, 171);
 }
+.heade-alimentación section div nav div div div .texto-blanco-alimentación {
+  color: white;
+}
 
-/*HEADER IMPORTANCIA DEL DE PORTE*/
-.heade-importancia-dep section article div ul .gris-importancia-dep a {
+/*HEADER IMPORTANCIA DEL DEPORTE*/
+.heade-importancia-deporte section div nav div div div .texto-gris-importancia-deporte {
   color: rgb(171, 171, 171);
+}
+.heade-importancia-deporte section div nav div div div .texto-blanco-importancia-deporte {
+  color: white;
 }
 
 /*HEADER COMIDAS SANAS*/
-.heade-comidas-sanas section article div .gris-comidas-sanas a {
+.heade-comidas-sanas section div nav div div div .texto-gris-comidas-sanas {
   color: rgb(171, 171, 171);
 }
-.heade-comidas-sanas section article div .gris-comidas-sanas a:hover {
-  color: black;
+.heade-comidas-sanas section div nav div div div .texto-blanco-comidas-sanas {
+  color: white;
 }
 
-/*HEADER CALCULA TU PESO*/
-.heade-cal-peso section article div .gris-cal-peso a {
+/*HEADER CALCULA IMC*/
+.heade-calcula-imc section div nav div div div .texto-gris-calcula-imc {
   color: rgb(171, 171, 171);
+}
+.heade-calcula-imc section div nav div div div .texto-blanco-calcula-imc {
+  color: white;
 }
 
 /*main index*/
 .inde-main .fondo-deporte-inde {
-  background-image: url("https://i.pinimg.com/564x/49/78/76/497876efcf9f68cb30b2f6a6bb04f60a.jpg") !important;
+  background-image: url("https://i.pinimg.com/564x/49/78/76/497876efcf9f68cb30b2f6a6bb04f60a.jpg");
   background-position: center;
-  background-size: auto;
-  margin-bottom: 30px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 1400px; /* Limita el ancho máximo del contenedor */
+  width: 100%;
+  height: 50%; /* Ajusta la altura del contenedor */
 }
 .inde-main .fondo-deporte-inde article div {
   color: white;
@@ -71,8 +79,8 @@
 .inde-main .margen-index- {
   margin-top: 40px !important;
 }
-.inde-main .margen-index- #pdm section .tarjetass-- .tarjeta-index .espaciado-tarjetas {
-  margin-bottom: 35px;
+.inde-main .margen-index- #pdm section .tarjetass-- .tarjeta-index {
+  margin-bottom: 30px;
 }
 .inde-main .margen-index- #pdm section .tarjetass-- .tarjeta-index .espaciado-tarjetas .card {
   transition: 1s;
