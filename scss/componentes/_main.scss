@@ -34,6 +34,9 @@
             .tarjetass--{
                 .tarjeta-index{
                     .espaciado-tarjetas {
+                        h3 {
+                            text-align: center;
+                        }
                         .card {
                             margin-bottom: 30px;
                             transition: 1s;
@@ -54,6 +57,8 @@
 
 
 
+
+
       /*MAIN-SALUD */
 .salud-main{
     section{
@@ -64,8 +69,6 @@
                         li{
                             a{
                                 text-decoration: none;
-                                color: black;
-                                text-transform: uppercase;
                             }
                         }
                     }
@@ -75,6 +78,9 @@
                 .tarjetas{
                     .espaciado-tarjetas{
                         margin-bottom: 20px;
+                        h3 {
+                            text-align: center;
+                        }
                         .card{
                             transition: 1s;
                             &:hover{
@@ -93,6 +99,17 @@
 .alim-main{
     section{
         section{
+            section {
+                .alimentacion-c {
+                    .img-centrada- {
+                        display: block;
+                        margin: 0 auto;
+                        max-width: 100%; /* Ajusta el ancho máximo de la imagen al ancho del contenedor */
+                        height: auto; /* Ajusta automáticamente la altura según el ancho */
+                        margin-bottom: 20px; /* Espacio entre la imagen y el texto */
+                    }
+                }
+            }
             section{
                 .tarjeta-alimentacion{
                     .alimentacion-c{
@@ -109,6 +126,9 @@
             }
             .espaciado-tarjetas{
                 margin-bottom: 25px;
+                h3 {
+                    text-align: center;
+                }
                 .card{
                     transition: 1s;
                     &:hover{
@@ -130,6 +150,9 @@ main{
             .tarjeta-importanciadep{
                 margin-bottom: 25px;
                 .espaciado-tarjetas{
+                    h3 {
+                        text-align: center;
+                    }
                     .card{
                         transition: 1s;
                         &:hover{

@@ -9,10 +9,13 @@
 }
 
 /* HEADER INDEX*/
-.heade-index section div nav div div div .texto-gris-index {
+.heade-index section div nav div div .navbar-nav {
+  justify-content: end;
+}
+.heade-index section div nav div div .navbar-nav .texto-gris-index {
   color: rgb(171, 171, 171);
 }
-.heade-index section div nav div div div .texto-blanco-index {
+.heade-index section div nav div div .navbar-nav .texto-blanco-index {
   color: white;
 }
 
@@ -79,6 +82,9 @@
 .inde-main .margen-index- {
   margin-top: 40px !important;
 }
+.inde-main .margen-index- #pdm .tarjetass-- .tarjeta-index .espaciado-tarjetas h3 {
+  text-align: center;
+}
 .inde-main .margen-index- #pdm .tarjetass-- .tarjeta-index .espaciado-tarjetas .card {
   margin-bottom: 30px;
   transition: 1s;
@@ -91,11 +97,12 @@
 /*MAIN-SALUD */
 .salud-main section section article .texto-salud .lista-salud li a {
   text-decoration: none;
-  color: black;
-  text-transform: uppercase;
 }
 .salud-main section section section .tarjetas .espaciado-tarjetas {
   margin-bottom: 20px;
+}
+.salud-main section section section .tarjetas .espaciado-tarjetas h3 {
+  text-align: center;
 }
 .salud-main section section section .tarjetas .espaciado-tarjetas .card {
   transition: 1s;
@@ -106,6 +113,13 @@
 }
 
 /*MAIN ALIMENTACION*/
+.alim-main section section section .alimentacion-c .img-centrada- {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%; /* Ajusta el ancho máximo de la imagen al ancho del contenedor */
+  height: auto; /* Ajusta automáticamente la altura según el ancho */
+  margin-bottom: 20px; /* Espacio entre la imagen y el texto */
+}
 .alim-main section section section .tarjeta-alimentacion .alimentacion-c .img-centrada-1 {
   width: 60vh;
 }
@@ -118,6 +132,9 @@
 .alim-main section section section .espaciado-tarjetas {
   margin-bottom: 25px;
 }
+.alim-main section section section .espaciado-tarjetas h3 {
+  text-align: center;
+}
 .alim-main section section section .espaciado-tarjetas .card {
   transition: 1s;
 }
@@ -129,6 +146,9 @@
 /*MAIN IMPORTANCIA DEL DEPORTE*/
 main section section .tarjeta-importanciadep {
   margin-bottom: 25px;
+}
+main section section .tarjeta-importanciadep .espaciado-tarjetas h3 {
+  text-align: center;
 }
 main section section .tarjeta-importanciadep .espaciado-tarjetas .card {
   transition: 1s;
