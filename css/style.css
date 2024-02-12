@@ -9,9 +9,6 @@
 }
 
 /* HEADER INDEX*/
-.heade-index section div nav div div .navbar-nav {
-  justify-content: end;
-}
 .heade-index section div nav div div .navbar-nav .texto-gris-index {
   color: rgb(171, 171, 171);
 }
